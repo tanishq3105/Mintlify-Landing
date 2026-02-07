@@ -1,89 +1,136 @@
-# Mintlify Website Clone (HTML + CSS Only)
+# Mintlify Landing Page Clone (HTML + CSS)
 
-This project is a **static desktop-only clone of the Mintlify marketing website**, built strictly using **HTML and CSS**. The goal of this project is to practice **layout structuring, visual hierarchy, and design replication** by closely matching the original Mintlify website’s look and feel—without relying on modern shortcuts.
+A static clone of the **Mintlify** landing page built using **only HTML and CSS**.  
+This project focuses on recreating layout, typography, spacing, and visual hierarchy without JavaScript or frameworks.
+
+live link: https://mintlify-landing-pink.vercel.app/
+
+<img width="1898" height="870" alt="image" src="https://github.com/user-attachments/assets/1f53e7d0-28ab-4d61-84b9-1d1cf834b33a" />
+
+<img width="1891" height="862" alt="image" src="https://github.com/user-attachments/assets/7f6ea8f4-bd7c-40ae-9262-457e45f5465e" />
+
+<img width="1884" height="853" alt="image" src="https://github.com/user-attachments/assets/f87db8bf-fc51-4bd7-a583-fa9e5062753b" />
+
 
 ---
 
-## Project Goal
+## Sections Recreated
 
-Recreate the overall **structure, layout, fonts, colors, and visual rhythm** of the Mintlify website while respecting the given constraints. This is a **learning-focused clone**, not a production or commercial replica.
+1. Top Navigation Bar  
+   Logo, navigation links, primary CTA buttons
 
----
+2. Hero Section  
+   Main headline, short description, email input with CTA, large background illustration
 
-## Sections Implemented
+3. Documentation Preview Section  
+   Static sidebar-style navigation with main content cards
 
-The website follows the same high-level structure as the original Mintlify homepage:
+4. Trusted By / Logos  
+   Grid of company logos
 
-1. **Top Navigation Bar**
+5. Feature Highlights  
+   Two-column sections with text and visuals
 
-   - Logo
-   - Navigation links
-   - Primary Call-To-Action button
+6. Intelligent Assistant / UI Preview  
+   Large UI mockup with descriptive text
 
-2. **Hero Section**
+7. Enterprise Features Section  
+   Title, short introduction, feature blocks
 
-   - Main headline
-   - Short supporting description
-   - Email input field + CTA button
-   - Large background illustration
+8. Case Studies / Customer Stories  
+   Card-based layout with images and text
 
-3. **Documentation Preview Section**
+9. Final Call-To-Action  
+   Strong heading with CTA buttons
 
-   - Static sidebar-style navigation
-   - Main content preview cards
-
-4. **Trusted By / Logos Section**
-
-   - Horizontal row of company logos
-
-5. **Feature Highlights**
-
-   - Two-column layout
-   - Text on one side, visual on the other
-
-6. **Intelligent Assistant / UI Preview**
-
-   - Large UI mockup image
-   - Supporting description text
-
-7. **Enterprise Features Section**
-
-   - Section title and short introduction
-   - Feature blocks (e.g., security, compliance, scalability)
-
-8. **Case Studies / Customer Stories**
-
-   - Card-based layout
-   - Images with short descriptions
-
-9. **Final Call-To-Action**
-
-   - Strong headline
-   - Primary CTA buttons
-
-10. **Footer**
-
-    - Multi-column navigation links
-    - Company, product, and legal information
+10. Footer  
+    Multi-column links with company and legal info
 
 ---
 
 ## Tech Stack
 
-- **HTML5** – Semantic structure
-- **CSS3** – Layout, typography, spacing, colors
+- HTML5  
+- CSS3  
+- CSS Grid & Flexbox  
+- No JavaScript  
+- No frameworks  
 
 ---
 
-## 📁 Project Structure
+## Font Used
 
-```
-├── index.html
-├── styles.css
-├── assets/
-│   ├── images/
-└── README.md
-```
+**Inter**
 
-Built by **Jaahnvi Sharma**
+Loaded locally using `@font-face` and applied globally across the site.
 
+---
+
+## Color Palette (Rendered)
+
+All colors below are **directly taken from the CSS** and are **visually shown here**.
+
+### Primary Backgrounds
+
+| Preview | Hex |
+|------|-----|
+| <span style="display:inline-block;width:20px;height:20px;background:#08090a;border-radius:4px"></span> | `#08090a` |
+| <span style="display:inline-block;width:20px;height:20px;background:#08090b;border-radius:4px"></span> | `#08090b` |
+| <span style="display:inline-block;width:20px;height:20px;background:#2b3a4c;border-radius:4px"></span> | `#2b3a4c` |
+
+---
+
+### Brand & Accent Colors
+
+| Preview | Hex |
+|------|-----|
+| <span style="display:inline-block;width:20px;height:20px;background:#18E299;border-radius:4px"></span> | `#18E299` |
+| <span style="display:inline-block;width:20px;height:20px;background:#90ECC5;border-radius:4px"></span> | `#90ECC5` |
+
+---
+
+### Text Colors
+
+| Preview | Hex |
+|------|-----|
+| <span style="display:inline-block;width:20px;height:20px;background:#ffffff;border-radius:4px;border:1px solid #ccc"></span> | `#ffffff` |
+| <span style="display:inline-block;width:20px;height:20px;background:#ffffffb3;border-radius:4px"></span> | `#ffffffb3` |
+| <span style="display:inline-block;width:20px;height:20px;background:#ffffff85;border-radius:4px"></span> | `#ffffff85` |
+
+---
+
+### Borders & Overlays
+
+| Preview | Value |
+|------|------|
+| <span style="display:inline-block;width:20px;height:20px;background:#ffffff26;border-radius:4px"></span> | `#ffffff26` |
+| <span style="display:inline-block;width:20px;height:20px;background:#ffffff1e;border-radius:4px"></span> | `#ffffff1e` |
+| <span style="display:inline-block;width:20px;height:20px;background:rgba(255,255,255,0.1);border-radius:4px"></span> | `rgba(255,255,255,0.1)` |
+| <span style="display:inline-block;width:20px;height:20px;background:rgba(255,255,255,0.15);border-radius:4px"></span> | `rgba(255,255,255,0.15)` |
+
+---
+
+## Layout & Styling Highlights
+
+- Fixed navigation with backdrop blur
+- Glassmorphism-style hero and cards
+- Grid-based logo and footer layouts
+- Flexbox-driven two-column sections
+- Rounded inputs and pill CTAs
+- Dark theme with green accent system
+
+---
+
+## Purpose
+
+Built to:
+- Practice cloning modern documentation SaaS landing pages
+- Improve CSS layout and theming skills
+- Recreate production-level UI using only fundamentals
+
+---
+
+## Disclaimer
+
+This is a **non-commercial, educational clone**.  
+Mintlify branding and original design inspiration belong to their respective owners.
